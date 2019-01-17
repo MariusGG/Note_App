@@ -9,5 +9,10 @@ describe NoteBook do
       end
     end
 
+    it "adds new notes" do
+      notebook.add_new_note('title', 'message')
+      expect(notebook.logged_notes).to eq [{title: 'shopping', message: 'eggs, bacon, bread'}]
+    end
+
 
 end
