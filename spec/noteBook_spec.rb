@@ -5,8 +5,9 @@ describe NoteBook do
 
     context '#initialize note book' do
       it "is initialize with a empty log" do
-        expect(notebook.log).to eq []
+        expect(notebook.logged_notes).to eq []
       end
     end
+
 
 end
