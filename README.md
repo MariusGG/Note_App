@@ -29,3 +29,8 @@ OOP
 ### Process
 I made regular commits after writing and passing tests. Following the TDD process helped me write clear code, which is easy to change. I used 'puts' statements to debug when I need to find out what a method was returning.
 This approach was a helpful debugging method, which I would use regularly. Making regular git commits allow me to work flow to stay on track. I also used 'git add'(individual files) and 'git status'(uncommitted files)  which helped to keep a good work flow. I felt this was a good approach because this would help anyone looking through my commits follow my process.
+
+### Screenshots
+
+![debugging](./debugging.png)
+![failing_test](./failing_test.png)
