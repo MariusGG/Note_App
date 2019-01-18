@@ -1,5 +1,6 @@
-class NoteBook
+# frozen_string_literal: true
 
+class NoteBook
   attr_accessor :logged_notes
   def initialize
     @logged_notes = []
@@ -10,12 +11,13 @@ class NoteBook
   end
 
   def show_all_notes
-    array = []
-    raise "The log is currently empty" if @logged_notes == []
-     @logged_notes.each do | k, v|
-       array << "#{ k[:title] } " "#{k[:message]}"
-     end
-     array.join(", ")
-  end
+    raise 'The log is currently empty' if @logged_notes == []
 
+    array = []
+    @logged_notes.each do |k, _v|
+      array << "#{k[:title]}: " "#{k[:message]}"
+    end
+    array.join(', ')
+  end
+  
 end
