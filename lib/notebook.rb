@@ -11,6 +11,7 @@ class NoteBook
 
   def show_all_notes
     array = []
+    raise "The log is currently empty" if @logged_notes == []
      @logged_notes.each do | k, v|
        array << "#{ k[:title] } " "#{k[:message]}"
      end
