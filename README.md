@@ -32,5 +32,5 @@ This approach was a helpful debugging method, which I would use regularly. Makin
 
 ### Screenshots
 
-![debugging](./Screenshot 2019-01-17 at 21.45.21.png)
-![failing_test](./Screenshot 2019-01-18 at 01.09.39.png)
+![noteapp](./Screenshot1.png)
+![noteapp](./Screenshot2.png)
