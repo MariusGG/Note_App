@@ -15,9 +15,13 @@ describe NoteBook do
     end
 
     it "shows all notes" do
-      notebook.add_new_note('note1', 'peanutbutter')
-      notebook.add_new_note('note2', 'jelly')
-      expect(notebook.show_all_notes).to eq "'note1, peanutbutter,  note2, jelly"
+      notebook.add_new_note("note1", "peanutbutter")
+      notebook.add_new_note("note2", "jelly")
+      expect(notebook.show_all_notes).to eq "note1 peanutbutter, note2 jelly"
+    end
+
+    it "throws an error to say the notes log is empty" do
+      expect { notebook.show_all_notes }.to raise_error("The log is currently empty")
     end
 
 end
