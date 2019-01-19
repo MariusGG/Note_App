@@ -34,3 +34,10 @@ This approach was a helpful debugging method, which I would use regularly. Makin
 
 ![noteapp](./Screenshot1.png)
 ![noteapp](./Screenshot2.png)
+
+### Additionally  
+More features to add with more time
+
+* print only the title
+* edit an existing note
+* delete notes
